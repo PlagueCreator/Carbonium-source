@@ -56,7 +56,7 @@ module.exports = {
     com: {
         epicgames: {
             common: {
-                not_found: new ErrDef("errors.com.epicgames.common.not_found", "Sorry the resource you were trying to find could not be found", 1004, 404),
+                not_found: new ErrDef("errors.com.epicgames.common.not_found", "Sorry the resource you were trying to find could not be found and yeah", 1004, 404),
                 server_error: new ErrDef("errors.com.epicgames.common.server_error", "Sorry an error occurred and we were unable to resolve it (tracking id: [{0}])", 1000, 500),
                 throttled: new ErrDef("errors.com.epicgames.common.throttled", "Operation access is limited by throttling policy, please try again in {0} second(s).", 1041, 429)
             },

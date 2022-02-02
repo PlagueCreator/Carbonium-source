@@ -37,7 +37,7 @@ module.exports = (app, port) => {
                         "hidden": false,
                         "_type": "CommonUI Simple Message Base",
                         "subgame": "br",
-                        "body": "Made by Luxy and Plague-creator.\r\nAmmettilo che siamo meglio di ezfn :) \r\n Pablo sei Sexy",
+                        "body": "",
                         "title": "CarboniumFN",
                         "spotlight": false
                     },
@@ -63,7 +63,7 @@ module.exports = (app, port) => {
                             "hidden": false,
                             "_type": "CommonUI Emergency Notice Base",
                             "title": "Carbonium FN",
-                            "body": "Made by Luxy and Plague-creator.\r\nVoglio fare sesso con te :) \r\n si sto dicendo a te",
+                            "body": "",
                         }
                     ]
                 },
@@ -82,7 +82,7 @@ module.exports = (app, port) => {
                         "tabTitleOverride": "Carbonium",
                         "_type": "CommonUI Simple Message MOTD",
                         "title": "Carbonium",
-                        "body": "Chiara sta in calore vai a guardarla 🌶️",
+                        "body": "",
                         "videoLoop": false,
                         "videoStreamingEnabled": false,
                         "sortingPriority": 0,
@@ -91,7 +91,7 @@ module.exports = (app, port) => {
                         "videoFullscreen": false,
                         "spotlight": false,
                         "websiteURL": "https://www.youtube.com/watch?v=iik25wqIuFo",
-                        "websiteButtonText": "Sito XXX 🍑"
+                        "websiteButtonText": "Look this"
                     }]
                 },
                 "jcr:isCheckedOut": true,
@@ -1598,8 +1598,3 @@ module.exports = (app, port) => {
             ]
         })
     })
-    //implementation needed in the future, response example: https://api.nitestats.com/v1/epic/prm/motd
-    /*app.post("/api/v1/fortnite-br/surfaces/motd/target", (req, res) => {
-        res.status(404).end();
-    })*/
-}

@@ -170,3 +170,4 @@ module.exports = {
         fs.writeFileSync(path.join(__dirname, `/config/${accountId}/profiles/profile_${profileId}.json`), JSON.stringify(data, null, 2));
     }
 };
+
